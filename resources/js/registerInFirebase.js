@@ -5,7 +5,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebas
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyABvh_L8nN96egBGzsMEIPHSJkxJjiIdI4",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "education-system-fc905.firebaseapp.com",
   projectId: "education-system-fc905",
   storageBucket: "education-system-fc905.firebasestorage.app",
